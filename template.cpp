@@ -21,13 +21,16 @@ int main()
     int arr[]={1,5,10,15,20,25,30};
     char str[]="black blue color";
     register int i;
+    
     int n=sizeof(arr)/sizeof(int),m=sizeof(str)/sizeof(char);
 
     cout<<"array before compacting"<<endl;
+    
     for(i=0;i<n;i++){cout<<arr[i]<<" ";}
     cout<<endl;
 
     cout<<"string before compacting"<<endl;
+    
     for(i=0;i<m;i++){cout<<str[i]<<" ";}
     cout<<endl;
 
@@ -35,10 +38,12 @@ int main()
     compact(str,m,5,9);
 
     cout<<"array after compacting"<<endl;
+    
     for(i=0;i<n;i++){cout<<arr[i]<<" ";}
     cout<<endl;
 
     cout<<"string after compacting"<<endl;
+    
     for(i=0;i<m;i++){cout<<str[i]<<" ";}
     cout<<endl;
 
